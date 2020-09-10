@@ -1,0 +1,11 @@
+// Testing program by Claude Garrett V.
+// Simply adds two matrices and integers together.
+//
+m0: 47; // Integer.
+m1: 32;
+m2: {{1, 2}, {3, 4}};
+m3: {{1, 1}, {1, 1}};
+m4: {{1, 1}, {1, 1}, {1, 1}};
+0: addint m9, m0, m1;
+1: addmat ma, m2, m3;
+2: stop;

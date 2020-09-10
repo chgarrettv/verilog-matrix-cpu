@@ -1,0 +1,10 @@
+// Program by Claude Garrett V.
+//
+m0: {{4, 12, 4, 34}, {7, 6, 11, 9}, {9, 2, 8, 13}, {2, 15, 16, 3}}; // Matrix 1.
+m1: {{23, 45, 31, 22}, {7, 6, 4, 1}, {18, 12, 13, 12}, {13, 5, 7, 19}}; // Matrix 2.
+0: addmat m2, m0, m1; 	// Sums the two defined matrices.
+1: submat m3, m2, m0; 	// Subtracts matrix 1 from the sum.
+2: trans m4, m2; 	// Transposes the sum matrix.
+3: scale r0, m4, i4; 	// Scales the transposed matrix by 4.
+4: multmat m5, r0, m4; 	// Multiplies the scaled matrix by the transposed matrix.
+5: stop; 		// Terminates the program.
