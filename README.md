@@ -118,7 +118,6 @@ X6: 0 = Normal, 1 = STOP.
  X5: 0 = ALU in Integer Mode, 1 = ALU in Matrix Mode
   X4: 1 = ADD
    X3: 1 = SUB
-
     X2: 1 = MULT
      X1: 1 = SCALE
       X0: 1 = TRANS
