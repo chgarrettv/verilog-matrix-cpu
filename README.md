@@ -113,14 +113,14 @@ XXXX_XXX_ADDD_DDDD_ARRR_RRRR_A_IIII_IIII
 
 XXXXXXX: Opcode, 7 bits in length.
 
-X: 0 = Normal, 1 = STOP.
- X: 0 = ALU in Integer Mode, 1 = ALU in Matrix Mode
-  X: 1 = ADD
-   X: 1 = SUB
+X6: 0 = Normal, 1 = STOP.
+ X5: 0 = ALU in Integer Mode, 1 = ALU in Matrix Mode
+  X4: 1 = ADD
+   X3: 1 = SUB
 
-    X: 1 = MULT
-     X: 1 = SCALE
-      X: 1 = TRANS
+    X2: 1 = MULT
+     X1: 1 = SCALE
+      X0: 1 = TRANS
 
 ADDDDDDD: Destination Selection, 8 bits in length.
 
