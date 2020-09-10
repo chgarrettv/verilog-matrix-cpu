@@ -113,6 +113,7 @@ XXXX_XXX_ADDD_DDDD_ARRR_RRRR_A_IIII_IIII
 
 XXXXXXX: Opcode, 7 bits in length.
 
+
 X6: 0 = Normal, 1 = STOP.
  X5: 0 = ALU in Integer Mode, 1 = ALU in Matrix Mode
   X4: 1 = ADD
